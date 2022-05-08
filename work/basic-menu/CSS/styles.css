@@ -1,0 +1,163 @@
+#homepage{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /*grid-template-rows: auto auto 5fr auto;*/
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:"header header"
+                        "localmenu main"
+                        "footer footer"
+}
+
+/*The img and the title*/
+img{
+    grid-area: img;
+    padding: 5px;
+    height: 15%;
+    width: 15%;
+}
+/*First unordered list*/
+header{
+    grid-area: header;
+    background-color: black;
+}
+
+.menubar .menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin:0;
+}
+
+.menubar ul button{
+    display: inline-block;
+    padding: 1rem;
+    border-bottom:0;
+}
+
+.menubar button:hover ,li:hover{
+    background-color: #df293c;
+}
+
+.menubar li:hover button{
+    background-color: #df293c;
+}
+
+button{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    border:none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropmenu{
+    display: none;
+    position: absolute;
+}
+
+
+.dropdown-content{
+    list-style-type: none;
+    padding: 0;
+    background-color: gray;
+    z-index: 1;
+    transform-origin: top center;
+    font-size: 90%;
+}
+
+.dropdown-content a{
+    color:white;
+    width: 10rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+/*The menu work without transitions for users with the appropriate prefers-reduced-motion settings*/
+@media (prefers-reduced-motion: no-preference) {
+    .dropdown:hover .dropmenu{
+        animation: growDown 300ms ease-in-out forwards;
+    }
+}
+
+.dropdown:hover .dropmenu{
+    display:block;
+}
+
+.dropmenu{
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0%{
+        transform: scaleY(0);
+    }
+    80%{
+        transform:scaleY(1.1);
+    }
+    100%{
+        transform:scaleY(1);
+    }
+}
+
+
+/*Second unordered list*/
+.local-menu{
+    grid-area: localmenu;
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-right: 1px solid black;
+}
+
+.local-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.local-menu ul li{
+    border: black solid 1px;
+    list-style-type: none;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+.local-menu ul{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.local-menu li:hover {
+    background-color: white;
+}
+
+/*Paragraphs*/
+main{
+    grid-area: main;
+    background-color: #f5b4af;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/*footer*/
+footer{
+    color: white;
+    grid-area: footer;
+    background-color: #df293c;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+}

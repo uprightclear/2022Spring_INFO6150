@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="CSS/styles.css"/>
+</head>
+<body>
+    <div id="homepage">
+        <nav class="menubar">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="case.html">Case</a></li>
+                <li><a href=info.html>Information</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="form.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <nav class="main">
+            <nav class="formarea">
+                <form action="test.html" method="post">
+                    <label><span>Name:</span>
+                        <input class="name" type="text" name="name" required/>
+                    </label>
+                    <label><span>Email:</span>
+                        <input class="email" type="text" name="email" required/>
+                    </label>
+                    <label><span>Tire:</span>
+                        <select name="Tier" required>
+                            <option value="">Please select</option>
+                            <option value="1">Silver Tier</option>
+                            <option value="2">Gold Tier</option>
+                            <option value="3">Platinum Tier</option>
+                        </select>
+                    </label>
+
+
+                    <label><span>Do you want us to send you annoying emails?</span>
+                        <input class="checkbox" type="checkbox" name="annoy_me"/>
+                    </label>
+
+                    <button type="submit">submit</button>
+                </form>
+            </nav>
+        </nav>
+        <footer>
+            <a href="http://uprightclear.com/">@uprightclear</a> 2022 Spring
+        </footer>
+    </div>
+</body>
+</html>

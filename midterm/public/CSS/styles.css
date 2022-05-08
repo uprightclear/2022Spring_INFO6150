@@ -1,0 +1,300 @@
+/*The img and the title*/
+.imgTitle img{
+    grid-area: img;
+    width: 20%;
+}
+/*First unordered list*/
+header{
+    grid-area: header;
+    background-color: black;
+}
+
+.menubar .menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin:0;
+}
+
+.menubar ul button{
+    display: inline-block;
+    padding: 1rem;
+    border-bottom:0;
+}
+
+.menubar button:hover ,li:hover{
+    background-color: #df293c;
+}
+
+.menubar li:hover button{
+    background-color: #df293c;
+}
+
+button{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    border:none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 999;
+}
+
+.dropmenu{
+    display: none;
+    position: absolute;
+}
+
+
+.dropdown-content{
+    list-style-type: none;
+    background-color: gray;
+    z-index: 1;
+    transform-origin: top center;
+    font-size: 90%;
+    padding: 0;
+}
+
+.dropdown-content a{
+    color:white;
+    width: 10rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+/*The menu work without transitions for users with the appropriate prefers-reduced-motion settings*/
+@media (prefers-reduced-motion: no-preference) {
+    .dropdown:hover .dropmenu{
+        animation: growDown 300ms ease-in-out forwards;
+    }
+}
+
+.dropdown:hover .dropmenu{
+    display:block;
+}
+
+.dropmenu{
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0%{
+        transform: scaleY(0);
+    }
+    80%{
+        transform:scaleY(1.1);
+    }
+    100%{
+        transform:scaleY(1);
+    }
+}
+
+
+.local-menu ul{
+    background-color: #df293c;
+    list-style: none;
+    padding-left: 0;
+}
+
+.local-menu li{
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+.local-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.local-menu li:hover {
+    background-color:gray;
+    color: black;
+}
+
+.local-menu li{
+    text-align: center;
+}
+
+/*Paragraphs*/
+.form-main{
+    grid-area: main;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    height: 40rem;
+    background-image: url(../Image/campus.png);
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+
+.formarea{
+    background-color: white;
+    opacity: 85%;
+    display: block;
+    border-radius: 1rem;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+form{
+    padding: 1rem;
+}
+
+form > label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+input:invalid {
+    border: 1px solid #df293c;
+}
+
+input {
+    height: 20px;
+    border-radius: 5px;
+}
+
+select {
+    height: 20px;
+    border-radius: 5px;
+}
+
+select:invalid {
+    border: 1px solid #df293c;
+}
+
+.formarea button{
+    color: white;
+    background: #df293c;
+    border-radius: 4px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+}
+
+.formarea button:active{
+    background: #000000;
+    opacity: 0.5;
+}
+
+/*footer*/
+footer{
+    color: white;
+    grid-area: footer;
+    background-color: #df293c;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+.about-main{
+    grid-area: main;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-title{
+    text-align: center;
+}
+
+.about-image{
+    width: 10%;
+    float: left;
+    padding: 1rem;
+}
+
+.thank-main{
+    grid-area: main;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    display: flex;
+    height: 40rem;
+    background-image: url(../Image/campus.png);
+    background-size: cover;
+}
+
+.form-message{
+    border-radius: 1rem;
+    padding: 3rem;
+    opacity: 85%;
+    background-color: white;
+    margin:auto;
+    font-size: large;
+}
+
+.form-main{
+    grid-area: main;
+    background-image: url(../Image/campus.png);
+}
+
+
+
+
+@media (min-width: 800px) {
+    #homepage{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        /*grid-template-rows: auto auto 5fr auto;*/
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas:"img img"
+                        "header header"
+                        "localmenu main"
+                        "footer footer"
+    }
+
+    .imgTitle img{
+        grid-area: img;
+        width: 10%;
+    }
+
+    .local-menu{
+        grid-area: localmenu;
+        padding: 20px;
+        text-align: center;
+        background-color: whitesmoke;
+        border-right: 1px solid black;
+    }
+
+    .local-menu li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .local-menu ul li{
+        border: black solid 1px;
+        list-style-type: none;
+        padding: 5px;
+        margin-bottom: 2rem;
+    }
+
+    .local-menu ul{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+
+    .local-menu li:hover {
+        background-color: white;
+    }
+
+}

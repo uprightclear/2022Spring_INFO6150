@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f8c5cda-2a78-4ad6-be5e-07d63a0b43c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Faq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Menubar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/News.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/CSS/Privacy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/fake-services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Accordion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Faq.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Menubar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pages/Privacy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/Husky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/NEU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/Rainbow_flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/Sunrise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/background.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/book_study.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/building.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/campus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/daily_wellness_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/icons8-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/mentalhealth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/neulogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/neulogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/research.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/test_scheduler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/pics/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final/final-project/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-intro/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../react-intro/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="282Kex07GymK1b5AlGcyuxN2K4B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/uprightclear/sunjiqing/student--uprightclear/work/react-tabs",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f8c5cda-2a78-4ad6-be5e-07d63a0b43c3" name="Changes" comment="" />
+      <created>1650409340012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650409340012</updated>
+      <workItem from="1650409341327" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
